@@ -1,0 +1,12 @@
+build/
+install/
+log/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Root-level downloaded model copies. The package-owned model lives under
+# src/delivery_bot_perception_cpp/models/ when it is intentionally tracked.
+/yolo11n/
+/yolo11n.onnx
+/yolo11n.pt
